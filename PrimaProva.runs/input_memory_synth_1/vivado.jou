@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Jul 27 02:32:21 2016
+# Process ID: 2977
+# Current directory: /home/el3ctrician/PrimaProva/PrimaProva.runs/input_memory_synth_1
+# Command line: vivado -log input_memory.vds -mode batch -messageDb vivado.pb -notrace -source input_memory.tcl
+# Log file: /home/el3ctrician/PrimaProva/PrimaProva.runs/input_memory_synth_1/input_memory.vds
+# Journal file: /home/el3ctrician/PrimaProva/PrimaProva.runs/input_memory_synth_1/vivado.jou
+#-----------------------------------------------------------
+source input_memory.tcl -notrace

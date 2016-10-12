@@ -1,0 +1,65 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Thu Jul 28 03:03:37 2016
+| Host         : LinuxBox running 64-bit Debian GNU/Linux 8.5 (jessie)
+| Command      : report_control_sets -verbose -file FullChip_control_sets_placed.rpt
+| Design       : FullChip
+| Device       : xc7a100t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    12 |
+| Minimum Number of register sites lost to control set restrictions |    65 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               4 |            3 |
+| No           | No                    | Yes                    |               5 |            5 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              32 |           15 |
+| Yes          | Yes                   | No                     |              54 |           16 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|                                         Clock Signal                                        |                             Enable Signal                             |                                                                             Set/Reset Signal                                                                             | Slice Load Count | Bel Load Count |
++---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+| ~outputmemorycontroller/generator2/AddGen2/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0 |                                                                       | reset_IBUF                                                                                                                                                               |                1 |              1 |
+| ~outputmemorycontroller/generator1/AddGen/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0  |                                                                       | reset_IBUF                                                                                                                                                               |                1 |              1 |
+| ~outputmemorycontroller/outputsync/Master/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0  |                                                                       | reset_IBUF                                                                                                                                                               |                1 |              1 |
+| ~inputController1/AddGen/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0                   |                                                                       | reset_IBUF                                                                                                                                                               |                1 |              1 |
+| ~inputController2/Slave/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0                    |                                                                       | reset_IBUF                                                                                                                                                               |                1 |              1 |
+|  clk_IBUF_BUFG                                                                              |                                                                       |                                                                                                                                                                          |                3 |              4 |
+|  clk_IBUF_BUFG                                                                              | ce_IBUF                                                               | synchronizer1/Master/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/clear_count                     |                1 |              4 |
+|  clk_IBUF_BUFG                                                                              | ce_IBUF                                                               | outputmemorycontroller/outputsync/Master/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/clear_count |                1 |              4 |
+|  clk_IBUF_BUFG                                                                              | outputmemorycontroller/generator1/enadrv_reg_0                        | outputmemorycontroller/generator1/AddGen/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/clear_count |                3 |             11 |
+|  clk_IBUF_BUFG                                                                              | synchronizer1/Master/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0 | inputController1/AddGen/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/clear_count                  |                3 |             11 |
+|  clk_IBUF_BUFG                                                                              | outputmemorycontroller/generator1/enadrv_reg_0                        | reset_IBUF                                                                                                                                                               |                4 |             12 |
+|  clk_IBUF_BUFG                                                                              | synchronizer1/Master/U0/i_synth/i_baseblox.i_baseblox_counter/THRESH0 | reset_IBUF                                                                                                                                                               |               19 |             44 |
++---------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,110 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 6e8a9aeaaaeb400da17febe9a0680db3 --debug typical --relax --mt 8 -L xbip_utils_v3_0_5 -L c_reg_fd_v12_0_1 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_pipe_v3_0_1 -L xbip_dsp48_addsub_v3_0_1 -L xbip_addsub_v3_0_1 -L c_addsub_v12_0_8 -L c_gate_bit_v12_0_1 -L xbip_counter_v3_0_1 -L c_counter_binary_v12_0_8 -L xil_defaultlib -L xbip_bram18k_v3_0_1 -L mult_gen_v12_0_10 -L xbip_dsp48_multadd_v3_0_1 -L xbip_multadd_v3_0_8 -L blk_mem_gen_v8_3_1 -L secureip --snapshot ChipSimulation_behav xil_defaultlib.ChipSimulation -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_viv_com...
+Compiling package std.textio
+Compiling package xbip_utils_v3_0_5.xbip_utils_v3_0_5_pkg
+Compiling package xbip_counter_v3_0_1.xbip_counter_v3_0_1_viv_comp
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_counter_v3_0_1.xbip_counter_v3_0_1_pkg
+Compiling package c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_pkg
+Compiling package c_addsub_v12_0_8.c_addsub_v12_0_8_pkg_legacy
+Compiling package c_reg_fd_v12_0_1.c_reg_fd_v12_0_1_viv_comp
+Compiling package c_addsub_v12_0_8.c_addsub_v12_0_8_pkg
+Compiling package unisim.vcomponents
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.std_logic_textio
+Compiling package mult_gen_v12_0_10.mult_gen_v12_0_10_viv_comp
+Compiling package mult_gen_v12_0_10.mult_gen_v12_0_10_pkg
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xbip_multadd_v3_0_8.xbip_multadd_v3_0_8_viv_comp
+Compiling package xbip_multadd_v3_0_8.xbip_multadd_v3_0_8_pkg
+Compiling package xbip_dsp48_multadd_v3_0_1.xbip_dsp48_multadd_v3_0_1_viv_co...
+Compiling package xbip_dsp48_multadd_v3_0_1.xbip_dsp48_multadd_v3_0_1_pkg
+Compiling architecture structural of entity c_reg_fd_v12_0_1.c_reg_fd_v12_0_1_viv [\c_reg_fd_v12_0_1_viv(4,"0","0",...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity c_addsub_v12_0_8.c_addsub_v12_0_8_lut6_legacy [\c_addsub_v12_0_8_lut6_legacy(4,...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_fabric_legacy [\c_addsub_v12_0_8_fabric_legacy(...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_legacy [\c_addsub_v12_0_8_legacy("artix7...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_legacy [\c_counter_binary_v12_0_8_legacy...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_viv [\c_counter_binary_v12_0_8_viv(0,...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8 [\c_counter_binary_v12_0_8(0,0,"a...]
+Compiling architecture c_counter_binary_0_arch of entity xil_defaultlib.c_counter_binary_0 [c_counter_binary_0_default]
+Compiling architecture complex of entity xil_defaultlib.synchronizer [synchronizer_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_1.c_reg_fd_v12_0_1_viv [\c_reg_fd_v12_0_1_viv(11,"0","0"...]
+Compiling architecture rtl of entity c_addsub_v12_0_8.c_addsub_v12_0_8_lut6_legacy [\c_addsub_v12_0_8_lut6_legacy(11...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_fabric_legacy [\c_addsub_v12_0_8_fabric_legacy(...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_legacy [\c_addsub_v12_0_8_legacy("artix7...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_legacy [\c_counter_binary_v12_0_8_legacy...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_viv [\c_counter_binary_v12_0_8_viv(0,...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8 [\c_counter_binary_v12_0_8(0,0,"a...]
+Compiling architecture c_counter_binary_1_arch of entity xil_defaultlib.c_counter_binary_1 [c_counter_binary_1_default]
+Compiling architecture complex of entity xil_defaultlib.IMC [imc_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_1.c_reg_fd_v12_0_1_viv [\c_reg_fd_v12_0_1_viv(11,"0","10...]
+Compiling architecture rtl of entity c_addsub_v12_0_8.c_addsub_v12_0_8_lut6_legacy [\c_addsub_v12_0_8_lut6_legacy(11...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_fabric_legacy [\c_addsub_v12_0_8_fabric_legacy(...]
+Compiling architecture synth of entity c_addsub_v12_0_8.c_addsub_v12_0_8_legacy [\c_addsub_v12_0_8_legacy("artix7...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_legacy [\c_counter_binary_v12_0_8_legacy...]
+Compiling architecture synth of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8_viv [\c_counter_binary_v12_0_8_viv(0,...]
+Compiling architecture xilinx of entity c_counter_binary_v12_0_8.c_counter_binary_v12_0_8 [\c_counter_binary_v12_0_8(0,0,"a...]
+Compiling architecture c_counter_binary_2_arch of entity xil_defaultlib.c_counter_binary_2 [c_counter_binary_2_default]
+Compiling architecture complex of entity xil_defaultlib.IMC2 [imc2_default]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture input_memory_arch of entity xil_defaultlib.input_memory [input_memory_default]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture inputmemory2_arch of entity xil_defaultlib.inputMemory2 [inputmemory2_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2("1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.op_resize [\op_resize(8,8,1,1,0,11,8)\]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.luts [\luts("artix7",8,1,8,1,0,0,0,0,1...]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.mult_gen_v12_0_10_viv [\mult_gen_v12_0_10_viv(0,0,1,"ar...]
+Compiling architecture xilinx of entity mult_gen_v12_0_10.mult_gen_v12_0_10 [\mult_gen_v12_0_10(0,0,1,"artix7...]
+Compiling architecture mult_gen_0_arch of entity xil_defaultlib.mult_gen_0 [mult_gen_0_default]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(0,0,0,0,"NO_RESET","DIR...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0_4.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(0,0,0...]
+Compiling architecture synth of entity xbip_dsp48_multadd_v3_0_1.xbip_dsp48_multadd_synth [\xbip_dsp48_multadd_synth(0,0,"a...]
+Compiling architecture synth of entity xbip_dsp48_multadd_v3_0_1.xbip_dsp48_multadd_v3_0_1_viv [\xbip_dsp48_multadd_v3_0_1_viv(0...]
+Compiling architecture xilinx of entity xbip_multadd_v3_0_8.multadd_dsp [\multadd_dsp(0,"artix7",8,8,16,1...]
+Compiling architecture synth of entity xbip_multadd_v3_0_8.xbip_multadd_v3_0_8_viv [\xbip_multadd_v3_0_8_viv(0,"arti...]
+Compiling architecture xilinx of entity xbip_multadd_v3_0_8.xbip_multadd_v3_0_8 [\xbip_multadd_v3_0_8(0,"artix7",...]
+Compiling architecture xbip_multadd_0_arch of entity xil_defaultlib.xbip_multadd_0 [xbip_multadd_0_default]
+Compiling architecture xilinx of entity xbip_multadd_v3_0_8.multadd_dsp [\multadd_dsp(0,"artix7",8,8,16,1...]
+Compiling architecture synth of entity xbip_multadd_v3_0_8.xbip_multadd_v3_0_8_viv [\xbip_multadd_v3_0_8_viv(0,"arti...]
+Compiling architecture xilinx of entity xbip_multadd_v3_0_8.xbip_multadd_v3_0_8 [\xbip_multadd_v3_0_8(0,"artix7",...]
+Compiling architecture xbip_multadd_1_arch of entity xil_defaultlib.xbip_multadd_1 [xbip_multadd_1_default]
+Compiling architecture complex of entity xil_defaultlib.converter [converter_default]
+Compiling architecture complex of entity xil_defaultlib.OMC1 [omc1_default]
+Compiling architecture complex of entity xil_defaultlib.OMC2 [omc2_default]
+Compiling architecture complex of entity xil_defaultlib.OMCfull [omcfull_default]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_output_stage [\blk_mem_gen_v8_3_1_output_stage...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_softecc_output_reg_stage [\blk_mem_gen_v8_3_1_softecc_outp...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1_mem_module [\blk_mem_gen_v8_3_1_mem_module("...]
+Compiling architecture behavioral of entity blk_mem_gen_v8_3_1.blk_mem_gen_v8_3_1 [\blk_mem_gen_v8_3_1("blk_mem_gen...]
+Compiling architecture outputmemorycore_arch of entity xil_defaultlib.outputMemoryCore [outputmemorycore_default]
+Compiling architecture struct of entity xil_defaultlib.OutputMemory [outputmemory_default]
+Compiling architecture struct of entity xil_defaultlib.FullChip [fullchip_default]
+Compiling architecture behavioral of entity xil_defaultlib.writeToFile1 [\writeToFile1("mem1.txt")(1,8)\]
+Compiling architecture behavioral of entity xil_defaultlib.writeToFile2 [\writeToFile2("mem2.txt")(1,8)\]
+Compiling architecture behavioral of entity xil_defaultlib.writeToFile3 [\writeToFile3("mem3.txt")(1,8)\]
+Compiling architecture behavioral of entity xil_defaultlib.writeToFile4 [\writeToFile4("mem4.txt")(1,8)\]
+Compiling architecture behavioral of entity xil_defaultlib.chipsimulation
+Built simulation snapshot ChipSimulation_behav

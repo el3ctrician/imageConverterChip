@@ -1,0 +1,267 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Jul 27 02:31:27 2016
+# Process ID: 2838
+# Current directory: /home/el3ctrician/PrimaProva/PrimaProva.runs/xbip_multadd_1_synth_1
+# Command line: vivado -log xbip_multadd_1.vds -mode batch -messageDb vivado.pb -notrace -source xbip_multadd_1.tcl
+# Log file: /home/el3ctrician/PrimaProva/PrimaProva.runs/xbip_multadd_1_synth_1/xbip_multadd_1.vds
+# Journal file: /home/el3ctrician/PrimaProva/PrimaProva.runs/xbip_multadd_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source xbip_multadd_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'xbip_multadd_1' generated file not found '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_multadd_1' generated file not found '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_multadd_1' generated file not found '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_multadd_1' generated file not found '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'xbip_multadd_1' generated file not found '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_1_sim_netlist.vhdl'. Please regenerate to continue.
+Command: synth_design -top xbip_multadd_1 -part xc7a100tcsg324-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2852 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1011.234 ; gain = 172.516 ; free physical = 1131 ; free virtual = 5791
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'xbip_multadd_1' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/synth/xbip_multadd_1.vhd:70]
+INFO: [Synth 8-3491] module 'xbip_multadd_v3_0_8' declared at '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0.vhd:120' bound to instance 'U0' of component 'xbip_multadd_v3_0_8' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/synth/xbip_multadd_1.vhd:119]
+INFO: [Synth 8-638] synthesizing module 'xbip_multadd_v3_0_8' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0.vhd:154]
+INFO: [Synth 8-3491] module 'xbip_multadd_v3_0_8_viv' declared at '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:2019' bound to instance 'i_synth' of component 'xbip_multadd_v3_0_8_viv' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'xbip_multadd_v3_0_8_viv' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:2065]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:460]
+INFO: [Synth 8-3491] module 'multadd_dsp' declared at '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:1597' bound to instance 'use_multadd_dsp' of component 'multadd_dsp' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:2131]
+INFO: [Synth 8-638] synthesizing module 'multadd_dsp' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:1628]
+INFO: [Synth 8-3491] module 'xbip_dsp48_multadd_v3_0_1_viv' declared at '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:1096' bound to instance 'multadd_usecase_inst' of component 'xbip_dsp48_multadd_v3_0_1_viv' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:1721]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_multadd_v3_0_1_viv' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:1131]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:414]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:417]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:420]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:423]
+INFO: [Synth 8-3491] module 'xbip_dsp48_multadd_synth' declared at '/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:852' bound to instance 'i_synth_model' of component 'xbip_dsp48_multadd_synth' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:1165]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48_multadd_synth' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:885]
+INFO: [Synth 8-638] synthesizing module 'xbip_dsp48e1_wrapper_v3_0' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1659]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1685]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1688]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1691]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1694]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1697]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1700]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1703]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1706]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1709]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1712]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1715]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1718]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: assertion statement [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1721]
+INFO: [Synth 8-113] binding component instance 'i_primitive' to cell 'DSP48E1' [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1896]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48e1_wrapper_v3_0' (1#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_wrapper_v3_0_4/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd:1659]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_multadd_synth' (2#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:885]
+INFO: [Synth 8-256] done synthesizing module 'xbip_dsp48_multadd_v3_0_1_viv' (3#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_dsp48_multadd_v3_0_1/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd:1131]
+INFO: [Synth 8-256] done synthesizing module 'multadd_dsp' (4#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:1628]
+INFO: [Synth 8-256] done synthesizing module 'xbip_multadd_v3_0_8_viv' (5#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0_vh_rfs.vhd:2065]
+INFO: [Synth 8-256] done synthesizing module 'xbip_multadd_v3_0_8' (6#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/xbip_multadd_v3_0_8/hdl/xbip_multadd_v3_0.vhd:154]
+INFO: [Synth 8-256] done synthesizing module 'xbip_multadd_1' (7#1) [/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/ip/xbip_multadd_1/synth/xbip_multadd_1.vhd:70]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1061.098 ; gain = 222.379 ; free physical = 956 ; free virtual = 5616
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1061.098 ; gain = 222.379 ; free physical = 944 ; free virtual = 5605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1069.098 ; gain = 230.379 ; free physical = 944 ; free virtual = 5604
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1077.105 ; gain = 238.387 ; free physical = 925 ; free virtual = 5585
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 803 ; free virtual = 5465
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 804 ; free virtual = 5466
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 804 ; free virtual = 5466
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 804 ; free virtual = 5466
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 804 ; free virtual = 5466
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1144.109 ; gain = 305.391 ; free physical = 804 ; free virtual = 5466
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |     1|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1152.109 ; gain = 195.363 ; free physical = 797 ; free virtual = 5459
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1152.109 ; gain = 313.391 ; free physical = 797 ; free virtual = 5459
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1218.109 ; gain = 308.055 ; free physical = 726 ; free virtual = 5388
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1598.574 ; gain = 380.465 ; free physical = 388 ; free virtual = 5050
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1598.574 ; gain = 0.000 ; free physical = 385 ; free virtual = 5048
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 27 02:32:20 2016...

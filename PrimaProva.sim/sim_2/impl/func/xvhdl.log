@@ -1,0 +1,30 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.sim/sim_2/impl/func/InputMemorySim_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_prim_wrapper_init
+INFO: [VRFC 10-307] analyzing entity \input_memory_blk_mem_gen_prim_wrapper_init__parameterized0\
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_reg_fd_v12_0_1_viv
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_reg_fd_v12_0_1_viv
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_prim_width
+INFO: [VRFC 10-307] analyzing entity \input_memory_blk_mem_gen_prim_width__parameterized0\
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_addsub_v12_0_8_lut6_legacy
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_addsub_v12_0_8_lut6_legacy
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_addsub_v12_0_8_fabric_legacy
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_addsub_v12_0_8_fabric_legacy
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_top
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_addsub_v12_0_8_legacy
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_addsub_v12_0_8_legacy
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_v8_3_1_synth
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_counter_binary_v12_0_8_legacy
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_counter_binary_v12_0_8_legacy
+INFO: [VRFC 10-307] analyzing entity input_memory_blk_mem_gen_v8_3_1
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_counter_binary_v12_0_8_viv
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_counter_binary_v12_0_8_viv
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0_c_counter_binary_v12_0_8
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1_c_counter_binary_v12_0_8
+INFO: [VRFC 10-307] analyzing entity input_memory
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_0
+INFO: [VRFC 10-307] analyzing entity c_counter_binary_1
+INFO: [VRFC 10-307] analyzing entity IMC
+INFO: [VRFC 10-307] analyzing entity InputMemory1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sim_2/new/InputMemorySim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InputMemorySim

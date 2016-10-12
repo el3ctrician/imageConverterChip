@@ -1,0 +1,66 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 6e8a9aeaaaeb400da17febe9a0680db3 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot InputMemorySim_func_impl xil_defaultlib.InputMemorySim -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package unisim.vcomponents
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF("DONT_CARE","0",true,"AUTO...]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE('0','0','0','0')\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("0000000000000000000000000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("1110101010101010")(0,15)\]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1("0001")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_reg_fd_v12_0_1_viv [c_counter_binary_0_c_reg_fd_v12_...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_addsub_v12_0_8_lut6_legacy [c_counter_binary_0_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_addsub_v12_0_8_fabric_legacy [c_counter_binary_0_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_addsub_v12_0_8_legacy [c_counter_binary_0_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_counter_binary_v12_0_8_legacy [c_counter_binary_0_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_counter_binary_v12_0_8_viv [c_counter_binary_0_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0_c_counter_binary_v12_0_8 [c_counter_binary_0_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_0 [c_counter_binary_0_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0000000000000000001011100...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("0111111111111111111111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5("0100000000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6("1010101110101010101010101...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4("0111111111111111")(0,15)\]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_reg_fd_v12_0_1_viv [c_counter_binary_1_c_reg_fd_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_addsub_v12_0_8_lut6_legacy [c_counter_binary_1_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_addsub_v12_0_8_fabric_legacy [c_counter_binary_1_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_addsub_v12_0_8_legacy [c_counter_binary_1_c_addsub_v12_...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_counter_binary_v12_0_8_legacy [c_counter_binary_1_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_counter_binary_v12_0_8_viv [c_counter_binary_1_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1_c_counter_binary_v12_0_8 [c_counter_binary_1_c_counter_bin...]
+Compiling architecture structure of entity xil_defaultlib.c_counter_binary_1 [c_counter_binary_1_default]
+Compiling architecture fdpe_v of entity unisim.FDPE [\FDPE('1','1','0','0')\]
+Compiling architecture structure of entity xil_defaultlib.IMC [imc_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF("DONT_CARE",12,"DEFAULT","...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(18,1,1,false...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(1,1,"01011101010110011...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_prim_wrapper_init [input_memory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_prim_width [input_memory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(36,1,1,false...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(1,1,false,false,"00000...]
+Compiling architecture structure of entity xil_defaultlib.\input_memory_blk_mem_gen_prim_wrapper_init__parameterized0\ [\input_memory_blk_mem_gen_prim_w...]
+Compiling architecture structure of entity xil_defaultlib.\input_memory_blk_mem_gen_prim_width__parameterized0\ [\input_memory_blk_mem_gen_prim_w...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_generic_cstr [input_memory_blk_mem_gen_generic...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_top [input_memory_blk_mem_gen_top_def...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_v8_3_1_synth [input_memory_blk_mem_gen_v8_3_1_...]
+Compiling architecture structure of entity xil_defaultlib.input_memory_blk_mem_gen_v8_3_1 [input_memory_blk_mem_gen_v8_3_1_...]
+Compiling architecture structure of entity xil_defaultlib.input_memory [input_memory_default]
+Compiling architecture structure of entity xil_defaultlib.InputMemory1 [inputmemory1_default]
+Compiling architecture behavioral of entity xil_defaultlib.inputmemorysim
+Built simulation snapshot InputMemorySim_func_impl

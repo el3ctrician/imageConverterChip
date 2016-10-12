@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="xbip_multadd_0_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/xbip_multadd_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mult_gen_0_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/mult_gen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="xbip_multadd_1_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/xbip_multadd_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c_counter_binary_0_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/c_counter_binary_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="input_memory_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/input_memory_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c_counter_binary_1_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/c_counter_binary_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c_counter_binary_2_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/c_counter_binary_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="inputMemory2_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/inputMemory2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="outputMemoryCore_synth_1" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/outputMemoryCore_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_2" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/synth_2" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="xbip_multadd_0_synth_1"/>
+		<Parent Id="mult_gen_0_synth_1"/>
+		<Parent Id="xbip_multadd_1_synth_1"/>
+		<Parent Id="c_counter_binary_0_synth_1"/>
+		<Parent Id="input_memory_synth_1"/>
+		<Parent Id="c_counter_binary_1_synth_1"/>
+		<Parent Id="c_counter_binary_2_synth_1"/>
+		<Parent Id="inputMemory2_synth_1"/>
+		<Parent Id="outputMemoryCore_synth_1"/>
+	</Run>
+	<Run Id="impl_2" LaunchDir="/home/el3ctrician/PrimaProva/PrimaProva.runs/impl_2" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_2"/>
+	</Run>
+</Runs>
+

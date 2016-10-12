@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Jul 27 16:53:31 2016
+# Process ID: 4824
+# Current directory: /home/el3ctrician/PrimaProva/PrimaProva.runs/impl_2
+# Command line: vivado -log FullChip.vdi -applog -messageDb vivado.pb -mode batch -source FullChip.tcl -notrace
+# Log file: /home/el3ctrician/PrimaProva/PrimaProva.runs/impl_2/FullChip.vdi
+# Journal file: /home/el3ctrician/PrimaProva/PrimaProva.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source FullChip.tcl -notrace

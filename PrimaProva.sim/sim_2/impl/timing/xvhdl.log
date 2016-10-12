@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/new/writeToFile4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity writeToFile4
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/new/writeToFile2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity writeToFile2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/new/writeToFile1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity writeToFile1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sources_1/new/wirteToFile3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity writeToFile3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/el3ctrician/PrimaProva/PrimaProva.srcs/sim_2/new/ChipSimulation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ChipSimulation
